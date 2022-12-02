@@ -1,0 +1,67 @@
+Type;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Date;Expected Results;Actual Result;priority;status;Requirement Traceabilty;Test Type
+GUI ;FACEBOOK_MESSAGING_GUI_001;Verify the Alignment of fields on the Message screen;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_002;Verify that the font type and size of the labels and the text written on the different elements should be clearly visible.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message";;The font type and size of the lable should be clearly visible;The font type and size of the lable should be clearly visible;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_003;Verify that the size, color, and UI of the different elements are as per the specifications.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message";;The size, color, and UI of the different elements are as per the specifications;The size, color, and UI of the different elements are as per the specifications;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_004;Verify the Alignment of element on gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+6-Add text to message
+7-Try to Select Photo/Video";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_005;Verify the Alignment of element on the text message;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_006;Verify the Alignment of element on the record message;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message
+7-Try to record message";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_007;Verify the Alignment of element on smiley ;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message
+7-Try to add smile or tumthb";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_008;Verify the Alignment of element on emojie;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message
+5-Try to add emojie";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_009;Verify the Alignment of field on Camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message
+7-try to open Camera";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual
+GUI;FACEBOOK_MESSAGING_GUI_010;Verify the Alignment of field on location;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on the Messenger icon
+5- Click on ""New Message"" icon 
+ 6-Add text to message
+7-Try to add Location";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 3 : Messaging;Manual

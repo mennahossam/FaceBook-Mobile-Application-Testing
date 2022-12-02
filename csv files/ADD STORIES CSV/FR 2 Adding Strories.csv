@@ -1,0 +1,48 @@
+Type;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Date;Expected Results;Actual Result;priority;status;Requirement Traceabilty;TestType
+GUI ;FACEBOOK_ADDSTORY_GUI_001;Verify the Alignment of fields on the Story screen;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_002;Verify that the font type and size of the labels and the text written on the different elements should be clearly visible.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""";;The font type and size of the lable should be clearly visible;The font type and size of the lable should be clearly visible;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_003;Verify that the size, color, and UI of the different elements are as per the specifications.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""";;The size, color, and UI of the different elements are as per the specifications;The size, color, and UI of the different elements are as per the specifications;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_004;Verify the Alignment of field on Photo/video;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-Try to Select Photo/Video";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_005;Verify the Alignment of field on Text;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-Try to add text";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_006;Verify the Alignment of field on Music;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-Try to add Music";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_007;Verify the Alignment of field on colored screen;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-Try to Add Colored Screen";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_008;Verify the Alignment of field on Selfie;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-Try to add Selfie";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_009;Verify the Alignment of field on Camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-try to open Camera";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual
+GUI;FACEBOOK_ADDSTORY_GUI_010;Verify the Alignment of fields on Question/poll;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-Try to add poll/Question";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 2 : Add Stories;Manual

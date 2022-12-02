@@ -1,0 +1,156 @@
+Test suit;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Data;Expected Results;Actual Result;priority;status;Requirement Traceabilty;Test Type
+GUI;FACEBOOK_ADDPOST_GUI_001;Verfiy the Alignment Field of the Post Screen;APP is Installed and Opened     ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;Text and components are aligned;Text and components are aligned;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_002;Verify that the font type and size of the labels and the text written on the different elements should be clearly visible.;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_003;Verify that the application’s UI is responsive i.e. it should adjust to different screen resolutions and devices;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The UI is responsive;The UI is responsive;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_004;Verify the Alignment of field on Tag people;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;Tag people Field is aligned ;Tag people Field is aligned ;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_005;Verify the Alignment of field on Photo/video;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";; Photo/video fields are aligned in good way ; Photo/video fields are aligned in good way;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_006;Verify the Alignment of field on Album;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;Album field is opened and aligned;Album field is opened and aligned;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_007;Verify the Alignment of field on Edit photo;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";; Edit photo field is opened and aligned; Edit photo field is opened and aligned;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_008;Verify the Alignment of field on Edit video;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_009;Verify the Alignment of field on Background color;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_010;Verify the Alignment of fields on the Profile Page screen;APP is Installed and Opened  ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_011;Verify the Alignment of fields on the Group Page screen;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_012;Verify the Alignment of fields on the Home Page screen;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_013;Verify the Alignment of field on Share to Instagram;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";; the Alignment of field Should be Shared to Instagram; the Alignment of field  Shared to Instagram;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_014;Verify the Alignment of field on Music;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_015;Verify the Alignment of field on Camera;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons are alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_016;Verify the Alignment of field on GIF;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_017;Verify the Alignment of field on Live video;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_018;Verify the Alignment of field on Check in;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_019;Verify the Alignment of field on Feeling/activity;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_020;Verify the Alignment of field on Adding Avatar;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+GUI;FACEBOOK_ADDPOST_GUI_021;Verify the Alignment of field on adding Post As Draft;APP is Installed and Opened ;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post";;The fields and icons should be alligned in a good way.;The fields and icons should be alligned in a good way.;High;Pass;FR 1: Add Post;Manual
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;

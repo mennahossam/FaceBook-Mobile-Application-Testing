@@ -1,0 +1,94 @@
+Type;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Date;Expected Results;Actual Result;priority;status;Requirement Traceabilty;Test Type
+NEGATIVE;FACEBOOK_MESSAGING_NEG_001;Verify user cannot send an empty message;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user  
+6-Try to send message ";;Unable to click the Send icon;Unable to click the Send icon;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_002;Verify user cannot send a message without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user   
+6-Send message                             ";;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_003;Verify user cannot send a photo/video from gallery without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user            
+6-Choose photo/video from gallery                                           ";photo/video from gallery ;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_004;Verify user cannot send a photo/video using camera without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user           
+6-Take photo/video using camera                                      ";photo/video using camera;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_005;Verify user cannot send voice message without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user               
+6-Send voice message                                   ";voice message;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_006;Verify user cannot send a smiley without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user              
+6-Send smiley                                      ";smiley;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_007;Verify user cannot send a sound without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user               
+6-Send sound                                   ";sound;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_008;Verify user cannot send a GIF without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user              
+6-Try to send GIF                                    ";GIF;No GIFs available;No GIFs available;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_009;Verify user cannot send a sticker without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user               
+6-Try to send sticker                                     ";sticker;No Sticker available;No Sticker available;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_010;Verify user cannot send a location without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user              
+6-Try to send location                                    ";location;No result;No result;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_011;Verify user cannot send an emoji without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user               
+6-Send emoji                                    ";emoji;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_012;Verify user cannot add an emoji reaction to message without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon            
+4- Click on ""New Message"" icon
+5-Write Name of facebook user               
+6-Try to add an emoji reaction to message                                      ";;User can delete message from his chat.;User can delete message from his chat.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_013;Verify user cannot delete message for everyone without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation                            
+5-Tap and hold a message                       
+6-Try to delete message for everyone                                      ";;A blue circle should appear on the right side of the message.;A blue circle should appear on the right side of the message.;High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_014;Verify user cannot start an audio call without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation                
+5-Click on phone icon                                                                                  ";;"User gets message ""no internet connection""";"User gets message ""no internet connection""";High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_015;Verify user cannot start an video call without internet connection;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on video icon                                                                                  ";;"User gets message ""no internet connection""";"User gets message ""no internet connection""";High;Pass;FR 3 : Messaging;Manual
+NEGATIVE;FACEBOOK_MESSAGING_NEG_016;Verify user cannot upload a corrupted photo in a message;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Write Name of facebook user          
+5-Choose photo from gallery                                      ";corrupted photo;Unable to sent photo;Unable to sent photo;High;Pass;FR 3 : Messaging;Manual

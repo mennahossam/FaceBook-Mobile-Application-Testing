@@ -1,0 +1,170 @@
+Type;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Date;Expected Results;Actual Result;priority;status;Requirement Traceabilty;TestType
+POSITIVE;FACEBOOK_ADDSTORY_POS_001;Verify the user can add text to story;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-add text
+6-click on ""Share""button";""" Hello this my first story""";Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_002;Verify the user can add text and change background;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-add text
+6-change background color
+7-click on ""Share""button";""" Hello this my first story""+background ";Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Medium;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_003;Verify user can create story with a single photo using camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open camera and take photo
+6-click on ""Share""button";Taken photo ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_004;Verify user can create a story with a single photo from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose photo
+6-click on ""Share""button";Choosen Photo;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_005;Verify user can create a story with multiple photo token by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open camera and takemulti photos
+6-click on ""Share""button";Taken photos ;User should be able to take more than one photo and share them in the same story ;User can,t take more than one photo and share them in the same story;High;Fail;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_006;Verify the user can create a story with multiple photos from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose multi photos
+6-click on ""Share""button";CHoosen Photos;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_007;Verify user can create a story with a single video using camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open camera and take a video
+6-click on ""Share""button";Taken Video;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_008;Verify user can create a story with a single video from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose video
+6-click on ""Share""button";choosen video;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_009;Verify user can create a story with multiple video from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose multi videos
+6-click on ""Share""button";choosen videos;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_010;Verify user can create a story with multiple photos and videos from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose video and photo
+6-click on ""Share""button";choosen photo and video;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger. ;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_011;Verify user can create a story with multiple photos ,videos using camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a multi videos And photos
+6-click on ""Share""button";Taken videosand photo;User should be able to take more than one video ,photo and share them in the same story;User can,t take more than one video ,photo and share them in the same story;Medium;Fail;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_012;Verify user can create a story with multiple videos  using camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and takea multi videos 
+6-click on ""Share""button";Taken Video;User should be able to take more than one video ,photo and share them in the same story;User should be able to take more than one video ,photo and share them in the same story;Medium;Fail;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_013;Verify user can add stickers to photo/video taken by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a photo/video
+6-add sticker 
+7-click on ""Share""button";Taken photo/video+sticker;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Medium;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_014;Verify user can add stickers to photo/video taken from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and select a photo/video
+6-add sticker 
+7-click on ""Share""button";choosen photo/video+sticker;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Medium;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_015;Verify user can add effects to photo/video taken by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a photo/video
+6-add Effects 
+7-click on ""Share""button";Taken photo/video+effect;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_016;Verify user can add effects to photo/video taken erom gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and select a photo/video
+6-add Effects
+7-click on ""Share""button";choosen photo/video+effect;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_017;Verify user tag people to photo/video taken from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and select a photo/video
+6-Tag people 
+7-click on ""Share""button";"choosen photo/video+taged ""@Menna Hossam""";Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_018;Verify user tag people to photo/video taken bycamera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a photo/video
+6-Tag people  
+7-click on ""Share""button";"Taken photo/video+taged ""@Menna Hossam""";Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_019;Verify user can add feelings to photo/video taken from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open gallery and choose a photo/video
+6-add Feeling 
+7-click on ""Share""button";choosen photo/video+feeling happy;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_020;Verify user can add feelings to photo/video taken by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a photo/video
+6-add Feeling 
+7-click on ""Share""button";Taken photo/video+feeling happy;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_021;Verify user can add poll to photo/video taken by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a photo/video
+6-add Poll
+7-click on ""Share""button";Taken photo/video+poll;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_022;Verify user can add poll to photo/video taken from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose a photo/video
+6-add Poll
+7-click on ""Share""button";choosen photo/video+Poll;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_023;Verify user can add question to photo/video taken from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose a photo/video
+6-add Question
+7-click on ""Share""button";choosen photo/video+question;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_024;Verify user can add question to photo/video taken by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Camera and take a photo/video
+6-add Question
+7-click on ""Share""button";Taken photo/video+question;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_025;Verify user can save story to mobile;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-open Gallery and choose a photo/video
+6-click on ""Save""button";Taken photo;Story should be saved successfully to your mobile.;Story saved successfully to your mobile.;High;Pass;FR 2 : Add Stories;Manual
+POSITIVE;FACEBOOK_ADDSTORY_POS_026;Verify the user can set privacy of story to Public/friends/close friends;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4- Click on ""Add Story""
+5-add text then change privacy
+6-click on ""Share""button";"""Hello this my first story""+privacy changed";Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger for everyone/frends/close friend;Story should be shared successfully and should be visible at the top of Facebook feed and at the top of Messenger for everyone/frends/close friend;High;Pass;FR 2 : Add Stories;Manual

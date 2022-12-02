@@ -1,0 +1,121 @@
+Type;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Date;Expected Results;Actual Result;priority;status;Requirement Traceabilty;Test Type
+POSITIVE;FACEBOOK_MESSAGING_POS_001;Verify user can send message to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Write Name of facebook user  
+6-Send message                                           ";"""Hello, this is my first message!""";Message should be sent successfully and should be visible in their conversation list.;Message should be sent successfully and should be visible in their conversation list.;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_002;Verify user can send message to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Click on ""New Message"" icon 
+5-Write Name of facebook user 
+6-Send message                                           ";"""Hello, this is my first message!""";"Message should be sent successfully and should be visible in their ""message requests"".";Message should be sent successfully.;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_003;Verify user can receive message from facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open conversation to see message sent by user                                                                                                                              ";"""Hello, this is my first message!""";Message should be delivered successfully and should be visible in the conversation list. ;Message should be delivered successfully and should be visible in the conversation list. ;Medium;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_004;Verify user can receive message from any facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Click on your profile picture
+5- Click on ""message requests""                                                                                                                               ";"""Hello, this is my first message!""";"Message should be delivered successfully and should be visible in the ""message requests"". ";"Message should be delivered successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_005;Verify user can send message in a group chat;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4-  Click on ""New Message"" icon 
+5-Create a group chat  
+ 6-Add facebook users to group chat 
+ 7- Send message                                 ";"""Hello, this is my first message!""";Message should be sent successfully und can be seen by all group chat participants.;Message should be sent successfully und can be seen by all group chat participants.;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_006;Verify user can receive message in a group chat;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open conversation to see message sent by user                                                                                                                              ";"""Hello, this is my first message!""";Message should be delivered successfully and should be visible in the conversation list. ;Message should be delivered successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_007;Verify user can mention a chat participant in a group chat;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open group chat
+5- Type @ and then tap or click the name of the person you want to mention
+ 6- Send message                                 ";"""@Name, this is my first message""";Message should be sent  successfully and everyone in the group chat can see the message. ;Message should be sent  successfully and everyone in the group chat can see the message. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_008;Verify user can send a voice message to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on mic icon
+6-Send voice message                                           ";voice message;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_009;Verify user can send a voice message to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on mic icon 
+6-Send voice message                                           ";voice message;"Message should be sent  successfully and should be visible in the ""message requests"". ";"Message should be sent  successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_010;Verify user can send a photo/video from gallery to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon  
+6-Send a photo/video                                         ";photo/video from gallery;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_011;Verify user can send a photo/video from gallery to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon 
+6-Send a photo/video                                         ";photo/video from gallery;"Message should be sent  successfully and should be visible in the ""message requests"". ";"Message should be sent  successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_012;Verify user can send edited photo/video from gallery to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon                
+6- Click on Edit  
+7-Send a photo/video                                         ";edited photo/video from gallery;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_013;Verify user can send edited photo/video from gallery to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon 
+6- Click on Edit  
+7-Send a photo/video                                         ";edited photo/video from gallery;"Message should be sent  successfully and should be visible in the ""message requests"". ";"Message should be sent  successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_014;Verify user can send multiple photos/videos at once from gallery to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon 
+6-Send multiple photos/videos                                         ";photos/videos from gallery;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_015;Verify user can send multiple photos/videos at once from gallery to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation    
+5-Click on gallery icon       
+6-Send multiple photos/videos                                         ";photos/videos from gallery;"Message should be sent  successfully and should be visible in the ""message requests"". ";"Message should be sent  successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_016;Verify user can send a photo/video using camera to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on camera icon        
+6-Send a photo/video                                         ";photo/video using camera;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_017;Verify user can send a photo/video using camera to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on camera icon 
+ 6-Send a photo/video                                         ";photo/video using camera;"Message should be sent  successfully and should be visible in the ""message requests"". ";"Message should be sent  successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_018;Verify user can send edited photo/video using camera to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon                          
+ 6- Click on Edit                                       
+7-Send a photo/video                                         ";edited photo/video using camera;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_019;Verify user can send edited photo/video using camera to other facebook user;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation   
+5-Click on gallery icon                            
+ 6- Click on Edit                                     
+7-Send a photo/video                                         ";edited photo/video using camera;"Message should be sent  successfully and should be visible in the ""message requests"". ";"Message should be sent  successfully and should be visible in the ""message requests"". ";High;Pass;FR 3 : Messaging;Manual
+POSITIVE;FACEBOOK_MESSAGING_POS_020;Verify user can send location to facebook friend;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Click on the Messenger icon   
+4- Open a conversation    
+5-Click on location icon                            
+6-Send location";location;Message should be sent  successfully and should be visible in the conversation list. ;Message should be sent  successfully and should be visible in the conversation list. ;High;Pass;FR 3 : Messaging;Manual

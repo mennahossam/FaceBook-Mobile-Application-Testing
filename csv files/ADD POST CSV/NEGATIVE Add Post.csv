@@ -1,0 +1,167 @@
+Test suit;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Data;Expected Results;Actual Result;priority;status;Requirement Traceabilty;Test Type
+NEGATIVE;FACEBOOK_ADDPOST_NEG_001;Verify user cannot create an empty posT;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post 
+6-click on""Post""button";;"Unable to click the ""Post"" button";"Unable to click the ""Post"" button";High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_002;Verify user cannot upload a corrupted photo in the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Add corrupted photo 
+6-click on""Post""button";Corrupted photo;Unable to Post A photo;Unable to Post A photo;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_003;Verify user cannot upload a photo with invalid size in the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Add photo With invaild size 
+6-click on""Post""button";photo with invaild size;Unable to Post A photo;Unable to Post A photo;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_004;Verify user cannot upload a corrupted video in the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Add corrupted video 
+6-click on""Post""button";Corrupted video;Unable to Post video;Unable to Post video;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_005;Verify user cannot upload a video with invalid size in the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Add video With invaild size 
+6-click on""Post""button";video with invaild size;Unable to Post video;Unable to Post video;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_006;Verify post will be posted after internet connection is back if loosing  connection while posting;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post 
+6-click on""Post""button";"""Hello """;Post will get posted after internet connection is back;Post will get posted after internet connection is back;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_007;Verify user cannot add or search for GIF while internet connection is lost;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post 
+6-click on""Post""button";GIF;"user gets error message ""Sorry, something went wrong. Please try again.""";"user gets error message ""Sorry, something went wrong. Please try again.""";High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_008;Verify user cannot add or search for Feeling/activity while internet connection is lost;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Searching for feeling/activtiy";;"user gets error message ""Connection lost. Tap tap retry""";"user gets error message ""Connection lost. Tap tap retry""";High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_009;Verify user cannot add or search for location while internet connection is lost;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Searching for Location";;"user gets error message ""Connection lost. Tap tap retry""";"user gets error message ""Connection lost. Tap tap retry""";High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_010;Verify user cannot start a live video while internet connection is lost;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Try to open Live video";;"user gets error message ""Connection lost. Tap tap retry""";"user gets error message ""Connection lost. Tap tap retry""";High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_011;Verify user cannot search for Music while internet connection is lost;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Searching for Music";;"user gets error message ""Connection lost. Tap tap retry""";"user gets error message ""Connection lost. Tap tap retry""";High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_012;Verify user cannot access camera if there is no permission for camera to be accessed;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Open Camera ";;user gets message that user should alMedium access to device's camera;user gets message that user should alMedium access to device's camera;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_013;Verify user cannot tag a user not in friends list;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Try to tag a user not a frieind";;No result;No result;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_014;Verify user cannot tag himself in a post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Try to tag my self";;No result;No result;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_015;Verify user cannot tag unfriended user in a post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Try to tag a user not a frieind";;No result;No result;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_016;Verify user cannot check in to a location if location services are turned off;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Searching for Location";;user gets message that user should alMedium access to device's Location;user gets message that user should alMedium access to device's Location;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_017;Verify when user set post privacy to friends, an unfriend cannot see the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to Friends
+7-click on""Post""button";"""Hello""";Post should not be viewed by public users;Post should not be viewed by public users;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_018;Verify when user set post privacy to friends expect, the expected friends cannot see the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to Friends expect ""Menna Hossam"" 
+7-click on""Post""button";"""Hello""";Post should not be viewed by expected friends;Post should not be viewed by expected friends;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_019;Verify when user set post privacy to specific friends, other friends cannot see the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy  
+7-click on""Post""button0";"""Hello""";Post should be viewed by some friends only;Post should be viewed by some friends only;High;Pass;FR 1: Add Post;Manual
+NEGATIVE;FACEBOOK_ADDPOST_NEG_020;Verify when user set post privacy to only me, nobody can see the post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to Only Me
+7-click on""Post""button";"""Hello""";Post should be viewed by Only Me;Post should be viewed by Only Me;High;Pass;FR 1: Add Post;Manual
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;

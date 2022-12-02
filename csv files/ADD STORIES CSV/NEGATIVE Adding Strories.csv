@@ -1,0 +1,111 @@
+Type;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Date;Expected Results;Actual Result;priority;status;Requirement Traceabilty;TestType
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_001;Verify user cannot create an empty story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5- Add text
+ 6-Click ""Share""";;"Unable to click the ""Share"" button";"Unable to click the ""Share"" button";High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_002;Verify system will delete story after 24 hours from home page ;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Home Page                            
+4-Check if story still on Home page";;Story should be deleted after 24 hours from home page ;Story should be deleted after 24 hours from home page ;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_003;Verify system will delete  story after 24 hours from profile page ;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Check if story still on Profile page";;Story should be deleted after 24 hours from profile page ;Story should be deleted after 24 hours from profile page ;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_004;Verify user cannot upload a corrupted photo in the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5- Add a corrupted photo
+6-Click ""Share""";corrupted photo;Unable to share photo;Unable to share photo;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_005;Verify user cannot upload a photo with invalid size in the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5- Add a photo with invalid size
+6-Click ""Share""";photo with invalid size;Unable to share photo;Unable to share photo;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_006;Verify user cannot upload a corrupted video in the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5- Add a corrupted video
+6-Click ""Share""";corrupted video;Unable to share video;Unable to share video;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_007;Verify user cannot upload a video with invalid size in the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5- Add a video with invalid size 
+6-Click ""Share""";video with invalid size;Unable to share video;Unable to share video;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_008;Verify story will be shared after internet connection is back if loosing  connection while sharing;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5- Add a text and photo to story
+6-Click ""Share""";"""Hello, this is my first story"" + photo";Story will get shared after internet connection is back;Story will get shared after internet connection is back;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_009;Verify user cannot add a Green screen while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to add a Green screen";;"user gets error message ""Unable to show effects. Please check your connection and try again.""";"user gets error message ""Unable to show effects. Please check your connection and try again.""";High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_010;Verify user cannot add or search for GIF while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to add or search for GIF";;"user gets error message ""Sorry, something went wrong. Please try again.""";"user gets error message ""Sorry, something went wrong. Please try again.""";High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_011;Verify user cannot add or search for Feelings while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to add or search for Feelings";;"user gets error message ""Connection lost. Tap tap retry""";"user gets error message ""Connection lost. Tap tap retry""";High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_012;Verify user cannot add or search for location while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page 
+4-Click on ""Add Story""
+5-Try to add or search for location";;No result;No result;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_013;Verify user cannot add or search for an event while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to add or search for event";;"user gets error message ""Something went wrong. Please try again""";"user gets error message ""Something went wrong. Please try again""";High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_014;Verify user cannot add or search for fundraisers while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to add or search for fundraisers";;"user gets error message ""Something went wrong. Please try again""";"user gets error message ""Something went wrong. Please try again""";High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_015;Verify user cannot add or search for Music while internet connection is lost;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to add or search for music";;No result;No result;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_016;Verify user cannot access camera if there is no permission for camera to be accessed;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to take a photo using camera";;user gets message that user should allow access to device's camera;user gets message that user should allow access to device's camera;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_017;Verify user cannot check in to a location if location services are turned off;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Try to check in to a location";;user gets a message if user want to allow or deny the access of location;user gets a message if user want to allow or deny the access of location;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_018;Verify when user set story privacy to friends, an unfriend cannot see the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Write text and add a photo
+6-Set privacy to Friends
+7- Click ""Share""";"""Hello, this is my first story"" + photo";Story should not be viewed by public users;Story should not be viewed by public users;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_019;Verify when user set story privacy to hide story from, friends who the story is hiden from cannot see the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Write text and add a photo 
+6-Set privacy to Hide story from
+7- Click ""Share""";"""Hello, this is my first story"" + photo";Story should not be viewed by friends who the story is hidden from;Story should not be viewed by friends who the story is hidden from;High;Pass;FR 2 : Add Stories;Manual
+NEGATIVE;FACEBOOK_ADDSTORY_NEG_020;Verify when user set story privacy to custom, other friends cannot see the story;App is Installed and Opened;"1- Open the Facebook mobile application
+2- Login
+3- Go to Profile Page
+4-Click on ""Add Story""
+5-Write text and add a photo
+6-Set privacy to Custom
+7- Click ""Share""";"""Hello, this is my first story"" + photo";Story should be viewed by some friends only;Story should be viewed by some friends only;High;Pass;FR 2 : Add Stories;Manual

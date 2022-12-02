@@ -1,0 +1,213 @@
+Test suit;TC- ID;Name /Title;preconditions;Steps to be Executed;Test Data;Expected Results;Actual Result;priority;status;Requirement Traceabilty;Test Type
+POSITIVE;FACEBOOK_ADDPOST_POS_001;Verify the user can add text post ;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6-click on""Post""button";"""Hello this my first Post on FaceBook APP""";Text post should be posted successfully and should be visible in the latest news feed;Text post should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_002;Verify the user can add text post with background;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6-Go to the Backgroung field and change the color 
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+red color";Text post should be posted successfully with red color and should be visible in the latest news feed with red background;Text post should be posted successfully with red color and should be visible in the latest news feed with red background;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_003;Verify the user can add text post and Tag one person;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6-Go to the Tag field and tag ""Menna Hossam""
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+ assigned ""@Menna Hossam""";"Text post should be posted successfully with red color and should be visible in the latest news feed with Tagging ""Menna Hossam""";"Text post should be posted successfully with red color and should be visible in the latest news feed with Tagging ""Menna Hossam""";High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_004;Verify the user can add text post and Tag more than person;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6-Go to the Tag field and tag ""Menna Hossam"",""Omar Mohamed"" and""Layla Mohamed""
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+ assigned ""@Menna Hossam""and""@Omar Mohamed""and""Layla Mohamed""";"Text post should be posted successfully with red color and should be visible in the latest news feed with Tagging ""Menna Hossam"",""Omar Mohamed"" and""Layla Mohamed""";"Text post should be posted successfully with red color and should be visible in the latest news feed with Tagging ""Menna Hossam"",""Omar Mohamed"" and""Layla Mohamed""";High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_005;Verify the user can add text post with Location;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6-Go to the Location field and locate my current Location  
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+assigned my current Location";Text post should be posted successfully with red color and should be visible in the latest news feed with  my current Location;Text post should be posted successfully with red color and should be visible in the latest news feed with  my current Location;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_006;Verify the user can add text post with Feeling/Activity;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6-Go to the Felling Field and select ""Happy"" then add activity ""Biking acycle "" 
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+Happy+Biking a cycle ";"Text post should be posted successfully with red color and should be visible in the latest news feed with Happy on feeling field and ""riding a bike""in activity field ";"Text post should be posted successfully with red color and should be visible in the latest news feed with Happy on feeling field and ""riding a bike""in activity field ";High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_007;Verify the user can add a post with a single photo by Camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Camera and take a photo 
+7-click on""Post""button";Taken Photo;Photo post with taken photo should be posted successfully and should be visible in the latest news feed;Photo post with taken photo should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_008;Verify the user can add a post with aSingle photo from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a photo 
+7-click on""Post""button";Choosen Photo ;Photo post with taken photo should be posted successfully and should be visible in the latest news feed;Photo post with taken photo should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_009;Verify the user can add a post with single or  multiple video using camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Camera and take a video 
+7-click on""Post""button";Taken Video;Video post with taken photo should be posted successfully and should be visible in the latest news feed;Video post with taken photo should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_010;Verify the user can add a post with photos and videos using camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Camera and take a video and photo 
+7-click on""Post""button";Taken Video +photo;Video and photo post with taken photo should be posted successfully and should be visible in the latest news feed;Videoand Photo post with taken photo should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_011;Verify the user can add a post with photos and videos using gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a photo and video 
+7-click on""Post""button";choosen Photo +video;Video and photo post with choosen photo should be posted successfully and should be visible in the latest news feed;Video and photo post with choosen photo should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_012;Verify the user can edit the photo taken by camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Camera and take a Photo then edit 
+7-click on""Post""button";Taken photo with edit ;photo post with taken photo should be edited and posted successfully and should be visible in the latest news feed;photo post with taken photo should be edited and posted successfully and should be visible in the latest news feed;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_013;Verify the user can edit the photo choosen from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose a Photo from gallery then edit 
+7-click on""Post""button";choosen photo with edit ;photo post with choosen photo should be edited and posted successfully and should be visible in the latest news feed;photo post with choosen photo should be edited and posted successfully and should be visible in the latest news feed;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_014;Verify the user can edit video from gallery;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose video from gallery then edit 
+7-click on""Post""button";Taken video with edit ;Video post with choosen video should be edited and posted successfully and should be visible in the latest news feed;Video post with choosen video should be edited and posted successfully and should be visible in the latest news feed;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_015;Verify the user can edit video taken by Camera;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Camera and take a video 
+7-click on""Post""button";choosen video with edit ;Video post with taken video should be edited and posted successfully and should be visible in the latest news feed;Video post with taken video should be edited and posted successfully and should be visible in the latest news feed;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_016;Verify the user can set privacy of post to Public;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to puplic 
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+privacy to Public";Text post should be posted successfully and should be visible in the latest news feed ;Text post should be posted successfully and should be visible in the latest news feed;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_017;Verify the user can set privacy of post to Only Me ;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to Only Me 
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+privacy to Only Me";Text post should be posted successfully and shouldn't be visible in the latest news feed only on my Profile with Only Me icon;Text post should be posted successfully and shouldn't be visible in the latest news feed only on my Profile with Only Me icon;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_018;Verify the user can set privacy of post to Friends;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to Friends
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+privacy to Friends";Text post should be posted successfully and should be visible in the latest news feed of Freinds;Text post should be posted successfully and should be visible in the latest news feed of Friends;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_019;Verify the user can set privacy of post to Friends expect…;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- change the privacy to Friends expect ""Menna Hossam"" 
+7-click on""Post""button";"""Hello this my first Post on FaceBook APP""+privacy to Friends expect ""Menna Hossam""";"Text post should be posted successfully and should be visible in the latest news feed of Friends except ""Menna Hossam""";"Text post should be posted successfully and should be visible in the latest news feed of Friends except ""Menna Hossam""";High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_020;Verify the user can share text/photo/video post to Instagram;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose photo and video 
+7-AlMedium to share in instagram 
+8-click on share in FaceBook and Instagram";"""Hello this my first Post on FaceBook APP""+photo and video";post should be posted successfully and should be visible in the latest news feed of facebook and instagram;post should be posted successfully and should be visible in the latest news feed of facebook and instagram;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_021;Verify the user can share text/photo/video post to Instagram;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose photo and video 
+7-AlMedium to share in instagram 
+8-click on share in FaceBook and Instagram";"""Hello this my first Post on FaceBook APP""+photo and video";post should be posted successfully and should be visible in the latest news feed of facebook and instagram;post should be posted successfully and should be visible in the latest news feed of facebook and instagram;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_022;Verify the order of taking photos is as same as the photos are uploaded.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Camera and Take a Photo 
+7-click on""Post""button";Taken Photo;Photo post should be posted successfully and should be visible in the latest news feed of facebook and instagram;Photo post should be posted successfully and should be visible in the latest news feed of facebook and instagram;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_023;Verify the order of choosing photos from gallery is as same as the photos are uploaded.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a photo 
+7-click on""Post""button";Choose multiple photo;Photos post should be posted successfully and should be visible in the latest news feed ;Photos post should be posted successfully and should be visible in the latest news feed of;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_024;Verify the order of taking videos by camera is as same as the photos are uploaded.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a video
+7-click on""Post""button";Taken Video;Video  post should be posted successfully and should be visible in the latest news feed of facebook and instagram;Video  post should be posted successfully and should be visible in the latest news feed of facebook and instagram;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_025;Verify the order of choosen videos from gallery is as same as the photos are uploaded.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a photo 
+7-click on""Post""button";Taken Videos;Videos  post should be posted successfully and should be visible in the latest news feed of facebook and instagram;Videos  post should be posted successfully and should be visible in the latest news feed of facebook and instagram;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_026;Verify the quality of videos taken by camera is as same as the quality after uploading.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a photo 
+7-click on""Post""button";Taken Photo;Photo post should be posted successfully and should be visible in the latest news feed with same Quality;Photo post should be posted successfully and should be visible in the latest news feed with same Quality;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_027;Verify the quality of videos taken by camera is as same as the quality after uploading.;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a video 
+7-click on""Post""button";Taken Video;Videos  post should be posted successfully and should be visible in the latest news feed with same Quality;Videos  post should be posted successfully and should be visible in the latest news feed with same Quality;Medium;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_028;Verify user can discard post;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a video 
+7-click on""Discard Post""button";"""dfghjkl;""";post shouldn’t be posted successfully and shouldn't be visible in the latest news feed ;post shouldn’t be posted successfully and shouldn't be visible in the latest news feed ;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_029;Verify user can save post as Draft;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a video 
+7-click on""Discard Post""button
+8-Click on save as Draft button";"""sdfghjk""";post shouldn’t be posted successfully and shouldn't be visible in the latest news feed and saved in draft section;post shouldn’t be posted successfully and shouldn't be visible in the latest news feed and saved in draft section;High;Pass;FR 1: Add Post;Manual
+POSITIVE;FACEBOOK_ADDPOST_POS_030;Verify the user can add a post from Profile Page and Home Page and both actions should have the same behaviour;App is Installed and Opened;"1-Application opened Successfully
+2-Create account and Login
+3-HomePage Opened successfully
+4-click on""What,s on Your mind ?""
+5-Go to the field of writing a post
+6- Choose Gallery and select a video 
+7-click on""Post""button";"""HELLO"" +photo";Photo post should be posted successfully and should be visible in the latest news feed and in profile page with same behaviors;Photo post should be posted successfully and should be visible in the latest news feed and in profile page with same behaviors;High;Pass;FR 1: Add Post;Manual
